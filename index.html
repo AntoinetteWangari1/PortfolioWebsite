@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Antoinette Wangari</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Antoinette Wangari</div>
+        <div classs="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li> 
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/logo2.jpg" alt="Antoinette Wangari Profile Picture"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Antoinette Wangari</h1>
+            <p class="section_text_p2">GIS Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/AntoinetteWangariResumeOfficial.pdf')">
+                Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Me
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedinlogo3.png" alt="My LinkedIn Profile" class="icon"
+                onclick="location.href='https://www.linkedin.com/in/antoinette-wangari-251b1a256/'"/>
+                <img src="./assets/githublogo.png" alt="My Github Profile" class="icon"
+                onclick="location.href='https://github.com/AntoinetteWangari1'">
+            </div>
+        </div>
+        <img src="./assets/arrowicon.png" alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./experience'"/>
+
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <!-- <div class="section_pic-container">
+                <img src="./assets/Snapchat-1257468445.jpg" alt="Profile Picture"
+                class="about-pic">
+            </div> -->
+
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                        src="./assets/experience.png" 
+                        alt="Experience Icon"
+                        class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ years <br/> GIS Development <br/> GIS Analysis <br/> Remote Sensing</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                        src="./assets/education.png" 
+                        alt="Education Icon"
+                        class="icon"/>
+                        <h3>Education</h3>
+                        <p>B.Sc. Bachelors Degree in Geomatic Engineering and Geospatial Information Systems<br/>Certificate in Web Design & Development, Android Application, Python Programming </p>
+
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I have recently completed my undergraduate studies and am currently awaiting graduation.
+                        I am passionate about GIS development, with a focus on both mobile and web-based mapping solutions.
+                        My experience includes working on projects related to yield estimation, air quality analysis, and resource mapping.
+                        I enjoy solving spatial challenges using technologies like Leaflet and OpenLayers,and I am constantly exploring new ways to enhance geospatial applications.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <img src="./assets/arrowicon.png" alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./experience'"/>
+
+    </section>
+    <section id="experience">
+
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">GIS Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Python</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>                   
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Flutter</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>REACT</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                  
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">GIS Analysis</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>PostgreSQL/<br>PostGIS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>GeoServer</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>ArcGIS Pro</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>QGIS</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>                  
+            
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Google Earth Engine</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Digital Earth Africa Sandbox</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>Python</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="./assets/checkmarkicon.png" alt="Experience Icon"
+                        class="icon"/>
+                        <div>
+                            <h3>R</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+    <img src="./assets/arrowicon.png" alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./experience'"/>
+
+    
+</section>
+<section id="projects">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <video width="250" height="250" src="assets/HealthFacilitiesinNairobi - Made with Clipchamp.mp4" controls>
+                    Your browser does not support the video tag.
+                  </video>
+                  
+                <!-- <img src="./assets/project1.jpeg" 
+                alt="Project 1" 
+                class="project-img"/> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Health Facilities Resource Mapping</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AntoinetteWangari1'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://antoinettewangari1.github.io/Health-Facilities-in-Nairobi/'">Live Demo</button>
+            </div>
+
+        
+        </div>
+        <div class="details-container color-container">
+            <div class="article-conatiner">
+                <video width="250" height="250" src="assets/BURA IRRIGATION SCHEME - Made with Clipchamp.mp4" controls>
+                    Your browser does not support the video tag.
+                  </video>
+                <!-- <img src="./assets/project1.jpeg" 
+                alt="Project 1" 
+                class="project-img"/> -->
+            </div>
+            <h2 class="experience-sub-title project-title">Bura Irrigation Scheme</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AntoinetteWangari1'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://antoinettewangari1.github.io/Bura_Irrigation_Scheme/'">Live Demo</button>
+            </div>
+
+        
+        </div>
+        <div class="details-container color-container">
+            <div class="article-conatiner">
+                <img src="./assets/YieldMap.png" 
+                alt="Project 1" 
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Maize Yield Map</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AntoinetteWangari1'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AntoinetteWangari1'">Live Demo</button>
+            </div>
+
+        
+        </div>
+        <div class="details-container color-container">
+            <div class="article-conatiner">
+                <img src="./assets/StudyArea.png" 
+                alt="Project 1" 
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Study Area Map</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AntoinetteWangari1'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AntoinetteWangari1'">Live Demo</button>
+            </div>
+
+        
+        </div>
+        
+    </div>
+    </div>
+    <img src="./assets/arrowicon.png" alt="Arrow Icon" class="icon arrow"
+        onclick="location.href='./experience'"/>
+</section>
+
+<section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+        <img src="./assets/emaillogo.png"
+        alt="email icon"
+        class="icon contact-icon"/>
+        <p><a href="mailto:examplemail@gmail.com">antoinettewangari25@gmail.com</a></p>
+    
+    </div>
+    <div class="contact-info-container">
+        <img src="./assets/linkedinlogo2.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"/>
+        <p><a href="https://www.linkedin.com/in/antoinette-wangari-251b1a256/">LinkedIn</a></p>
+    
+    </div>
+</div>
+
+
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                
+            </ul>
+
+        </div>
+    </nav>
+    <p>Copyright &#169; 2023 Antoinette Wangari. All Rights Reserved.</p>
+</footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
